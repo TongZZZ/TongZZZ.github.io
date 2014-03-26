@@ -12,10 +12,11 @@ See the [list of supported entities][ent_html] ([pdf][ent_pdf]).
 This is another test and <span>This *will* work.</span>
 
 
-<script>
-    for(var i=1; i<=3; i++) {
-      alert("Rabbit "+i+" out of the hat!")
-    }
-</script>
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
 
+<script type="text/javascript">
+$(document).ready(function(){
+ $("#msgid").html("This is Hello World by JQuery");
+});
+</script>
 
