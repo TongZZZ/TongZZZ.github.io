@@ -2,4 +2,10 @@
 layout: post_page
 title: New Year
 ---
-test 10013231321
+<script>
+
+function myFunction()
+{
+document.getElementById("demo").innerHTML="My First JavaScript Function";
+}
+</script>
