@@ -2,9 +2,12 @@
 layout: post_page
 title: Samuel L
 ---
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$ is via through the Euler integral
+$(function() {
+    var $text       = $("#text"), // the markdown textarea
+        $preview    = $("#preview"); // the preview div
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
+    $text.on("keyup", function() {
+        $preview.html( marked($text.val()) ); // parse markdown
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "preview"]); // then let MathJax do its job
+    })
+});
