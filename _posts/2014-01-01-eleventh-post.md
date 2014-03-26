@@ -13,5 +13,5 @@ This is another test and This *will* work.
 
 
 <div style="color:#0000FF" markdown = "1">
-Very intersting!
+Very intersting, will it show in blue
 </div>
