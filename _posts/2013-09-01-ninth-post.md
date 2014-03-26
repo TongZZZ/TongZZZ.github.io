@@ -11,3 +11,5 @@ z \left( 1 \ +\ \sqrt{\omega_{i+1} + \zeta -\frac{x+1}{\Theta +1} y + 1}
 \ \right)
 \ \ \ =\ \ \ 1
 $$
+
+Well hopefully everything will be fine
