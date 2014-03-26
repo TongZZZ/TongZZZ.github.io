@@ -12,11 +12,9 @@ See the [list of supported entities][ent_html] ([pdf][ent_pdf]).
 This is another test and This *will* work.
 
 
-<script src="http://code.jquery.com/jquery-1.4.2.min.js" type="text/javascript">
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
 <script type="text/javascript">
-$(document).ready(function(){
-$("#msgid").html("This is Hello World by JQuery");
-});
+_uacct = "UA-155626-2";
+urchinTracker();
 </script>
-
