@@ -2,6 +2,7 @@
 layout: post_page
 title: New Year
 ---
+```
 <script>
 
     var num1, num2, sum
@@ -10,3 +11,4 @@ title: New Year
     sum = parseInt(num1) + parseInt(num2) // "+" means "add"
     alert("Sum = " + sum)  // "+" means combine into a string
 </script>
+```
