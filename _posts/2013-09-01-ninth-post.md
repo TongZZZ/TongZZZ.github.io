@@ -10,4 +10,7 @@ title: Samuel L
 Here is some tests about the functionality of the Latex support
 
 Well hopefully everything will be fine
-$$x^2 \textbf{some bold text}$$
+The quadratic equation $$ax^2 + bx + c = 0$$ has two roots
+$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+where the nature of the roots is determined by the sign
+of the discriminent $$b^2 - 4ac$$.
