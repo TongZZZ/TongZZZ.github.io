@@ -17,7 +17,7 @@ This is another test and This *will* work.
 
 <script type="text/javascript">
 $(document).ready(function(){
- $("#msgid").html("This is Hello World by JQuery");
+$("#msgid").html("This is Hello World by JQuery");
 });
 </script>
 
