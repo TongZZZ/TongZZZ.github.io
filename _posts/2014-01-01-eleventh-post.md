@@ -12,9 +12,6 @@ See the [list of supported entities][ent_html] ([pdf][ent_pdf]).
 This is another test and This *will* work.
 
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-155626-2";
-urchinTracker();
-</script>
+<div class = "someclass" id = "someid" markdown = "1">
+Insert markdown here
+</div>
