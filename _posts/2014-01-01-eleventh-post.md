@@ -12,6 +12,6 @@ See the [list of supported entities][ent_html] ([pdf][ent_pdf]).
 This is another test and This *will* work.
 
 
-<div class = "content" style="color:#0000FF" markdown = "1">
+<div style="color:#0000FF" markdown = "1">
 Insert markdown here
 </div>
