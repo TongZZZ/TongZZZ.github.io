@@ -12,7 +12,7 @@ See the [list of supported entities][ent_html] ([pdf][ent_pdf]).
 This is another test and This *will* work.
 
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js">
+<script src="http://code.jquery.com/jquery-1.4.2.min.js">
 </script>
 
 <script type="text/javascript">
