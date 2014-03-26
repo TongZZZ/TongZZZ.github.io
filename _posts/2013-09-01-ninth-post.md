@@ -2,12 +2,13 @@
 layout: post_page
 title: Samuel L
 ---
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 $(function() {
-    var $text       = $("#text"), // the markdown textarea
-        $preview    = $("#preview"); // the preview div
-
-    $text.on("keyup", function() {
-        $preview.html( marked($text.val()) ); // parse markdown
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "preview"]); // then let MathJax do its job
+    var $text       = $("#text"), 
+        $preview    = $("#preview");
+        $text.on("keyup", function() {
+        $preview.html( marked($text.val()) );
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "preview"]);
     })
 });
