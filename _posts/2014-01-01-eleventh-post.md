@@ -9,4 +9,4 @@ See the [list of supported entities][ent_html] ([pdf][ent_pdf]).
 [ent_pdf]: http://maruku.rubyforge.org/entity_test.pdf
 
 
-This is another test
+This is another test and <span>This *will* work.</span>
