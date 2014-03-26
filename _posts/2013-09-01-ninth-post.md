@@ -10,4 +10,4 @@ title: Samuel L
 Here is some tests about the functionality of the Latex support
 
 Well hopefully everything will be fine
-$$x^2$$
+$$x^2 \textbf{some bold text}$$
