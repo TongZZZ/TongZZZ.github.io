@@ -14,3 +14,5 @@ They are:
 [jgritman](https://github.com/jgritman/Jekyll-Bootstrap-Template)
 
 [Christen](http://www.chenzixin.com/program/2013/03/07/jekyll-host-html/)
+
+[lcolladotor](http://lcolladotor.github.io/)
