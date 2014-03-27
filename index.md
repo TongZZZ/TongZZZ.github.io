@@ -5,6 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
+
 {% for post in site.posts %}
 <article>
   <header>
@@ -13,14 +14,16 @@ tagline:
     </h2>
     <h5><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time></h5>
   </header>
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <p>{{ post.excerpt }}</p>
-  </li>
+  <div class="post-entry">
+        {{  post.content | strip_html | truncatewords:75 }}
+  </div>
+  <div class="post-footer">
+        <div class="read-more">
+            <a href="{{ post.url }}">read more... &rarr;</a>
+        </div>
+    </div>
 </article>
 {% endfor %}
-
-
 
 
 
