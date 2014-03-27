@@ -38,6 +38,21 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
+
+{% for post in site.posts %}
+<article>
+  <header>
+    <h2>
+        <a href="{{ post.url }}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>
+    </h2>
+    <h5><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time></h5>
+  </header>
+  {{ post.content }}
+</article>
+{% endfor %}
+
+
+
 ## To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
