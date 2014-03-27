@@ -12,3 +12,4 @@ They are:
 [jolestar](https://github.com/jolestar/jolestar.github.com)
 
 [jgritman](https://github.com/jgritman/Jekyll-Bootstrap-Template)
+[Christen](http://www.chenzixin.com/program/2013/03/07/jekyll-host-html/)
