@@ -11,6 +11,7 @@ tagline:
 	<div>
           <cite>{{ post.date | date: "%Y-%m-%d" }}</cite> <i class="icon-tag"></i>  {% for tag in post.tags %}<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
         </div> 
+        <br/>
 	{{ post.content | split:'<!--more-->' |first }}
 	{% if forloop.last != true %}<hr />{% endif %}
 {% endfor %}
