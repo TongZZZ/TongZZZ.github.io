@@ -13,7 +13,14 @@ tagline:
     </h2>
     <h5><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time></h5>
   </header>
-  {{ post.content || split:'<!--more-->' | first }}
+  <div class="post-entry">
+        {{  post.content || split:'<!--more-->' | first }}
+  </div>
+  <div class="post-footer">
+        <div class="read-more">
+            <a href="{{ post.url }}">read more... &rarr;</a>
+        </div>
+    </div>
 </article>
 {% endfor %}
 
