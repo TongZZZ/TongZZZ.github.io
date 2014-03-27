@@ -13,7 +13,7 @@ tagline:
     </h2>
     <h5><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time></h5>
   </header>
-  {{ post.content }}
+  {{ post.content || split:'<!--more-->' | first }}
 </article>
 {% endfor %}
 
