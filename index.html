@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-{% include pagination.html %}
+
 {% for post in paginator.posts %}
 	<h1 id="article{{ forloop.index }}"><a href="{{ post.url }}/">{{ post.title }}</a></h1>
 
