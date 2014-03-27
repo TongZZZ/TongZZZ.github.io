@@ -15,11 +15,11 @@ tagline:
     <h5><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time></h5>
   </header>
   <div class="post-entry">
-        {{  post.content | strip_html | truncatewords:75 }}
+        {{ post.content | split:'<!--more-->' |first }}
   </div>
   <div class="post-footer">
         <div class="read-more">
-            <a href="{{ post.url }}">read more... &rarr;</a>
+            <a href="{{ post.url }}">read more...</a>
         </div>
     </div>
 </article>
