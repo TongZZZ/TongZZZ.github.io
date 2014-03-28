@@ -16,3 +16,6 @@ They are:
 [Christen](http://www.chenzixin.com/program/2013/03/07/jekyll-host-html/)
 
 [lcolladotor](http://lcolladotor.github.io/)
+
+And of course, the mighty helpful
+[Jekyll Boostrap](http://jekyllbootstrap.com/)
