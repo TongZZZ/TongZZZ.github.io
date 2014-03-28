@@ -19,3 +19,5 @@ They are:
 
 And of course, the mighty helpful
 [Jekyll Boostrap](http://jekyllbootstrap.com/)
+
+And [a list of people](https://github.com/jekyll/jekyll/wiki/Sites) who use Jekyll to build their websites 
