@@ -2572,7 +2572,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
