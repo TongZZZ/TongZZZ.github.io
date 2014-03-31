@@ -28,9 +28,9 @@ audio:not([controls]) {
   display: none;
 }
 html {
-  font-size: 150%;
-  -webkit-text-size-adjust: 150%;
-  -ms-text-size-adjust: 150%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 a:focus {
   outline: thin dotted #333;
@@ -107,7 +107,7 @@ textarea {
 body {
   margin: 0;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
   color: #333333;
   background-color: #ffffff;
@@ -286,7 +286,7 @@ a:hover {
 p {
   margin: 0 0 9px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
 }
 p small {
