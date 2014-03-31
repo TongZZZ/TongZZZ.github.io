@@ -5,7 +5,7 @@ tagline: ""
 tags : [urn]
 ---
 
-We have two urns, ***A*** and ***B***, with Urn ***A*** containing two <font color='blue'>blue</font> balls and one <font color='red'>red</font> ball, and Urn ***B*** containing 1 <font color='blue'>blue</font> balls and 2 <font color='red'>red</font> balls. 
+We have two urns, ***A*** and ***B***, with Urn ***A*** containing 2 <font color='blue'>blue</font> balls and 1 <font color='red'>red</font> ball, and Urn ***B*** containing 1 <font color='blue'>blue</font> balls and 2 <font color='red'>red</font> balls. 
 
 The following experiment is conducted to a group of people.
 
