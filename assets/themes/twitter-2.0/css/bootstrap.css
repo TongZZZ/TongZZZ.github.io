@@ -28,9 +28,9 @@ audio:not([controls]) {
   display: none;
 }
 html {
-  font-size: 120%;
-  -webkit-text-size-adjust: 120%;
-  -ms-text-size-adjust: 120%;
+  font-size: 150%;
+  -webkit-text-size-adjust: 150%;
+  -ms-text-size-adjust: 150%;
 }
 a:focus {
   outline: thin dotted #333;
