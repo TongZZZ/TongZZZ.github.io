@@ -27,6 +27,15 @@ So, the question to answer are:
 
 -------
 
+It is meaningless if those participants make random decisions. So we assume them to make rational decisions and their decision follow the optimal __Bayes decision rule__:
+
+Generally, let $\Omega=\{\omega_1, \omega_2\}$ be the set of the states, and $\overrightarrow{x}$ be the vector of the observations, then the Bayes' decision rule decides $\omega_1$ if $$
+Prob(\omega_1|\overrightarrow{x})>Prob(\omega_2|\overrightarrow{x})
+$$, and decides $\omega_2$ if 
+$$
+Prob(\omega_2|\overrightarrow{x})>Prob(\omega_1|\overrightarrow{x})
+$$.
+
 ###Scenario I:
 
 In the first scenario, the information of the decisions made from the predecessors of the current participant are withheld from the current participant.
