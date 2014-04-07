@@ -125,7 +125,7 @@ for (i in 1:N)
 strat5.series = cumsum(strat5)/c(1:N)
 #plot(strat5.series)
 
-plot(1:N,strat1.series, type = "l",col="red", xlab = "Number of runs", ylab = "Average price")
+plot(1:N,strat1.series, type = "l",col="red", xlab = "Number of runs", ylab = "Average reward")
 lines(1:N, strat2.series, type = "l", col = "blue")
 lines(1:N, strat3.series, type = "l", col = "green")
 lines(1:N, strat4.series, type = "l", col = "yellow")
