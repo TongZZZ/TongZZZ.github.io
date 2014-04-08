@@ -210,7 +210,7 @@ Just like Scenario I, the combined decision rule is again a simple counting heur
 
 The following simulation has experiments with number of participants ranging from 1 to 100. For each experiment, we have 1000 repeated trials, and we take the average of the correct prediction rates of the 1000 trials, for both individuals and combined, as the prediction accuracy from scenario I and II. Since this model is balanced, with equal probability of choosing urn $A$ and urn $B$, and the probability of selecting a black ball from urn $A$ is the same as the probability of drawing a white ball from urn $B$. So, without loss of generality, we set the urn predetermined to be urn $A$. Then, any participant, no matter which color of ball she draws, who decides urn $A$ would be considered as making a correct prediction, on the other hand, who decides urn $B$ would be considered as making a wrong prediction.
 
-Which is shown in the screenshot below:
+Which is shown in the screenshot below and also [this link](https://github.com/TongZZZ/TongZZZ.github.io/blob/master/assets/rcode/2014_03_30.r) for R code:
 ![My helpful screenshot]({{ site.url }}/assets/images/Rplot01.png)
 
 
