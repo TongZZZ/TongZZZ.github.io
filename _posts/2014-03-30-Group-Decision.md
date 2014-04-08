@@ -1,8 +1,8 @@
 ---
 layout: post
-category : urn
+category : urn, game
 tagline: "Group influence and information cascade"
-tags : [urn]
+tags : [urn, game]
 ---
 
 We have two urns, ***A*** and ***B***, with Urn ***A*** containing 2 <font color='blue'>blue</font> balls and 1 <font color='red'>red</font> ball, and Urn ***B*** containing 1 <font color='blue'>blue</font> ball and 2 <font color='red'>red</font> balls. 
