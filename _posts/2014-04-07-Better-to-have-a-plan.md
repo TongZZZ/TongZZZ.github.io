@@ -12,7 +12,7 @@ You are offered to throw a die up to three times. And you will earn the face val
 
 ###No plan:
 
-If you don't have a plan, well, you are still earning some money. So you just randonly choose to stop for Round 1 or Round 2 or Round 3. And you are expected to earn
+If you don't have a plan, well, you are still earning some money. So you just randomly choose to stop for Round 1 or Round 2 or Round 3. And you are expected to earn
 $$\frac{1}{2}(3.5)+\frac{1}{4}(3.5)+\frac{1}{4}(3.5) = 3.5$$
 
 
