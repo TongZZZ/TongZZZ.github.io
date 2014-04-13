@@ -60,7 +60,7 @@ Iteration  Error
 
 Last one is Mahout in Hadoop with bash jobs:
 
-I am currently learning Java but still not as intuitive as Scala code, so I result to the bash job without too much configuration: 
+I am currently learning Java but it is still not as intuitive as Scala to me, so I result to the bash job without too much configuration: 
 {% highlight bash %}
 mahout org.apache.mahout.classifier.sgd.TrainLogistic --passes 200 --rate 100 --input /home/cloudera/Downloads/iono2.csv --features 100 --output /home/cloudera/Downloads/iono2.model --target target --categories 2 --predictors V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33 V34 --types n n
 
