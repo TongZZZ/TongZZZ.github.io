@@ -2,7 +2,7 @@
 layout: post
 category : ml
 tagline: "logistic regression test run"
-tags : [Spark,scala]
+tags : [spark,scala]
 ---
 I am getting myself used to two of the most grandeur machine learning library in the Hadoop ecosystem, [MLlib](http://spark.apache.org/mllib/) in Spark and [Mahout](https://mahout.apache.org/) in Hadoop. It would be interesting to test the accessibility and ability of the two packages. So I picked up a dataset from UCI ML database.
 
