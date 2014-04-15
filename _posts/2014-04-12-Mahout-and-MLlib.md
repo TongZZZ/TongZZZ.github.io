@@ -25,6 +25,7 @@ sum(cf[1,2],cf[2,1])/sum(cf)
 {% endhighlight %}
 
 Next, MLlib in Spark with scala:
+
 {% highlight scala %}  
 import org.apache.spark.mllib.classification.LogisticRegressionWithSGD
 import org.apache.spark.mllib.regression.LabeledPoint
