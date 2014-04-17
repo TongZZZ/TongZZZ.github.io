@@ -38,3 +38,10 @@ try {
 }
 a.flatMap(f(_)).sum
 {% endhighlight %}
+
+compare to R
+{% highlight bash %}
+a = c("1","2","3","4","5","6","7","8","9","10","hello")
+v = as.numeric(a[!is.na(as.numeric(a))])
+sum(v[v%%2==0])
+{% endhighlight %}
