@@ -12,17 +12,17 @@ sum(a[a%%2==0])
 {% endhighlight %}
 Until I was once amazed by the simplicity of Lambda function in Scala and the List comprehension in Python: 
 
+in Scala
+{% highlight scala %}
+val a = List(1,2,3,4,5,6,7,8,9,10)
+a.filter(_ % 2 == 0).sum
+{% endhighlight %}
+
 in Python
 {% highlight python %}
 a = [1,2,3,4,5,6,7,8,9,10]
 sum(filter(lambda x: x % 2, a))
 sum(x for x in a if x % 2)
-{% endhighlight %}
-
-in Scala
-{% highlight scala %}
-val a = List(1,2,3,4,5,6,7,8,9,10)
-a.filter(_ % 2 == 0).sum
 {% endhighlight %}
 
 And, today I found another thing in Scala that is more convenient than in R.
