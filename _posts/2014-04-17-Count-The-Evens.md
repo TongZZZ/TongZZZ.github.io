@@ -29,5 +29,6 @@ And, today I found another thing in Scala that is more convenient than in R.
 With the help of "some" and "option" in Scala, it can automatically ignore the strings. So you can do 
 {% highlight scala %}
 val a = List(1,2,3,4,5,6,7,8,9,10,"hello")
+def f(x: Int) = if (x % 2 == 0) Some(x) else None
 l.flatMap(f(_)).sum
 {% endhighlight %}
