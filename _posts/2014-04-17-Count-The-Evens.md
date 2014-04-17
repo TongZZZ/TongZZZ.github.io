@@ -10,7 +10,7 @@ As a Statistics background, I know I keep coming back to R because I can do this
 a = c(1,2,3,4,5,6,7,8,9,10)
 sum(a[a%%2==0])
 {% endhighlight %}
-Until, I was once amazed by the simplicity of Lambda function in Scala and the List comprehension in Python: 
+Until I was once amazed by the simplicity of Lambda function in Scala and the List comprehension in Python: 
 
 in Python
 {% highlight python %}
