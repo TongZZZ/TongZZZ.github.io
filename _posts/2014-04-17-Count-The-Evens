@@ -28,7 +28,13 @@ a.filter(_ % 2 == 0).sum
 And, today I found another thing in Scala that is more convenient than in R.
 With the help of "some" and "option" in Scala, it can automatically ignore the strings. So you can do 
 {% highlight scala %}
-val a = List(1,2,3,4,5,6,7,8,9,10,"hello")
-def f(x: Int) = if (x % 2 == 0) Some(x) else None
+val a = List("1","2","3","4","5","6","7","8","9","10","hello")
+def f(x: String): Option[Int] = {
+try {
+    if (Integer.parseInt(x.trim) % 2 == 0) Some(Integer.parseInt(x.trim)) else None
+  } catch {
+    case e: NumberFormatException => None
+  }
+}
 a.flatMap(f(_)).sum
 {% endhighlight %}
