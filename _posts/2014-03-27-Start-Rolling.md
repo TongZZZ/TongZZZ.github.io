@@ -16,3 +16,11 @@ My javascript experience is very limited, but I was able to set up this blog in 
 This is truly amazing, and I think this will change the landscape of the static blog users, as more and more people from different background are going to switch their blog to Jekyll.
  
 But also, the disadvantage is there. The technique difficulty is minimum compare to the copyright issues. Especially, in places where copyright laws are often ignored, it is just so easy to copy the entire blog and broadcast somewhere else. I think that is going to keep a lot of people away from using github pages. Anyway, this is still the best option for me. Being a data person requires me to write lots of snippets of code, and this will be a great place to record some of them. And since $$\LaTeX$$ can be relative conveniently used in markdown, I will certainly add more Math stuff.
+
+<iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAw274ppqEYwn5g_hvM7GZRDTcmgbfAbc0
+    &q=Space+Needle,Seattle+WA">
+</iframe>
