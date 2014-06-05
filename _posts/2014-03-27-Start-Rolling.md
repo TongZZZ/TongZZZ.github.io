@@ -25,5 +25,5 @@ But also, the disadvantage is there. The technique difficulty is minimum compare
     &center=41.022878,-73.71487
     &zoom=18
     &maptype=satellite
-    >
+    ">
 </iframe>
