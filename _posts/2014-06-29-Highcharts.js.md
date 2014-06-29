@@ -5,10 +5,14 @@ tagline: "Testing highcharts"
 tags : [highcharts]
 ---
 
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script type="text/javascript" src="http://code.highcharts.com/highcharts.js">
+</script>
+<script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js">
+</script>
 
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
+</div>
+<script type="text/javascript">
 
 $(function () {
         $('#container').highcharts({
@@ -58,5 +62,7 @@ $(function () {
             }]
         });
     });
+
+</script>
 
 test
