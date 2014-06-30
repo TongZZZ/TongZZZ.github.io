@@ -4,8 +4,8 @@ category : js
 tagline: "Testing highcharts"
 tags : [highcharts]
 ---
-test
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+</script>
 <script src="http://code.highcharts.com/highcharts.js">
 </script>
 <script src="http://code.highcharts.com/modules/exporting.js">
@@ -13,7 +13,6 @@ test
 
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
 </div>
-
 <script type="text/javascript">
 
 $(function () {
