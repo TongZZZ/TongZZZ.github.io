@@ -65,4 +65,4 @@ tags : [highcharts]
 //    });
 
 </script>
-test
+
