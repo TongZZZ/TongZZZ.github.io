@@ -4,7 +4,7 @@ category : js
 tagline: "Testing highcharts"
 tags : [highcharts]
 ---
-Let's test some of javascprit libraries for infographics :) Will do Highcharts.
+Let's test some of javascprit libraries for infographics :) Start with [Highcharts.js](http://www.highcharts.com/).
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
 </script>
 <script type="text/javascript" src="http://code.highcharts.com/highcharts.js">
